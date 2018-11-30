@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="java-example:war exploded">
+    <output-path>$PROJECT_DIR$/target/java-example</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="java-example" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.ansj:ansj_seg:5.1.1" />
+          <element id="library" level="project" name="Maven: org.nlpcn:nlp-lang:1.7.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/java-example/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="java-example/web/Web" />
+    </root>
+  </artifact>
+</component>
