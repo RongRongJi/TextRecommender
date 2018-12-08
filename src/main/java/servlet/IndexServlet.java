@@ -59,7 +59,7 @@ public class IndexServlet extends HttpServlet {
         double[][] matrix, recommend;
         //获得用户兴趣数据
         UserInterest[] userInterests = fileHandler.getUserInterestFromFile(this.getClass().getClassLoader().getResource(".").getPath() + "interest.txt");
-        //分析股票相似度
+        //分析相似度
         matrix = recommender.calculateMatrix(stockInfos);
         //根据相似度矩阵推荐用户
         recommend = recommender.recommend(matrix,userInterests);

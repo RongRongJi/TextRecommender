@@ -15,7 +15,7 @@ import java.util.*;
 public class RecommenderImpl implements Recommender {
 
     /**
-     * this function need to calculate stocks' content similarity,and return the similarity matrix
+     * 该函数用于计算相似度矩阵，返回一个记录相似度二位数组（矩阵）
      *
      * @param stocks stock info
      * @return similarity matrix
@@ -95,7 +95,7 @@ public class RecommenderImpl implements Recommender {
     }
 
     /**
-     * this function need to recommend the most possibility stock number
+     * 此函数根据输入的用户兴趣信息，输入的新闻相似度矩阵，计算出推荐二维数组
      *
      * @param matrix       similarity matrix
      * @param userInterest user interest

@@ -13,8 +13,7 @@ import java.util.*;
 
 public class TF_IDFImpl implements TF_IDF {
     /**
-     * this func you need to calculate words frequency , and sort by frequency.
-     * you maybe need to use the sorter written by yourself in example 1
+     * 根据给定词汇数组，算出各个词汇tf-idf词频，按照词频从高到底进行排序，然后生成Pair类型数组
      *
      * @param words the word after segment
      * @return a sorted words
